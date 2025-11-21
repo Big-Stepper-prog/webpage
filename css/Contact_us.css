@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.container{
+     display: flex;
+    background-color: white;
+    text-align: center;
+    justify-content: space-around;
+    padding: 35px;
+    border: 1px solid  rgb(124, 119, 119,0.2);
+    height: 80px;
+}
+.logo{
+    display: flex;
+}
+.link ul{
+     margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+    font-weight:lighter;
+    font-size: larger;
+    margin-left: 200px;
+}
+.image{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.rocketman{
+    font-weight:bolder;
+        font-size: 40px;
+        color: #000;
+    }
+.body1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+} 
+.contact {
+    padding-top: 100px;
+}
+.contact h1{
+    font-size: 70px;
+    font-weight: 1000;
+    margin-bottom: 40px;
+}
+.contact p{
+    font-size: 25px;
+    font-weight:lighter;
+    line-height: 40px;
+}
+.contact h3{
+    font-size:30px ;
+    font-weight: lighter;
+    color: rgb(145, 64, 220,0.7) ;
+}
+.form label{
+    color:  rgb(0, 0, 0,0.5);
+    font-size: larger;
+
+}
+.form p{
+    color: rgb(0, 0, 0,0.5);
+    font-size: small;
+}
+.form input{
+    height: 40px;
+    width: 45%;
+    
+}
+input[type="text"],input[type="email"],textarea
+{
+    border: 2px solid  rgb(197, 192, 192,0.5);
+    width: 100%;
+}
+input::placeholder{
+    color: rgb(197, 192, 192);
+    font-size: larger;
+}
+textarea::placeholder{
+    color: rgb(197, 192, 192);
+    font-size: 20px;
+}
+input[type="SUBMIT"]{
+    background-color: rgb(145, 64, 220);
+    color:white;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+.content{
+    margin-top: 50px;
+    background-color:rgb(145, 64, 220,0.7) ;
+    padding: 60px;
+    color: white;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.good h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.good p{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.but button{
+    height: 50px;
+    width: 200px;
+    font-weight: 500;
+    font-size: larger;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    align-items: start;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black; 
+    color: white;
+    gap: 150px;
+}
+.footer ul{
+    list-style-type: none;
+    
+
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+}
+.fa-twitter{
+    color: white;
+}
+.footer p{
+    color: gray;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom:20px ;
+}
+.footer h5{
+    font-size: larger;
+    font-weight: normal;
+}
